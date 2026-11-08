@@ -3,4 +3,5 @@
   margin: auto;
   background: #fbf5ed;
   min-height: 100vh;
+  display: flex;
 }
