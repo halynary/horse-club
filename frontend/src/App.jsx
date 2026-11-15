@@ -3,14 +3,10 @@ import "./App.css";
 import "./styles/main.scss";
 import { Sidebar } from "./componets/Sidebar/Sidebar";
 
-function App() {
+export default function App() {
   return (
-    <>
-      <div className="app">
-        <Sidebar></Sidebar>
-      </div>
-    </>
+    <div className="app">
+      <Sidebar />
+    </div>
   );
 }
-
-export default App;
