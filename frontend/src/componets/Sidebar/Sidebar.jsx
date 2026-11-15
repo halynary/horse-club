@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import "./Sidebar.scss";
 import Logo from "../Logo/Logo";
 export function Sidebar() {
   return (

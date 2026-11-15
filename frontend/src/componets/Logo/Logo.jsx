@@ -1,4 +1,4 @@
-import horseLogo from "../../assets/horse.svg";
+import horseLogo from "@/assets/images/horse.svg";
 export default function Logo() {
   return (
     <div className="logo">

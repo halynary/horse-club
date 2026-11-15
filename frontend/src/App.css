@@ -1,7 +1,24 @@
+.main {
+  flex: 1;
+  padding: 20px;
+  background: #fbf5ed;
+}
+
 .app {
+  width: 100%;
   max-width: 1800px;
   margin: auto;
   background: #fbf5ed;
   min-height: 100vh;
-  display: flex;
+
+}
+@media (max-width: 760px) {
+    .app {
+        display: block;
+    }
+}
+@media (min-width: 761px) {
+    .app {
+        display: flex;
+    }
 }

@@ -1,0 +1,17 @@
+
+.sidebar {
+        position: relative;
+        inset: auto;
+       padding: 13px 16px 0;
+        overflow: visible;
+        z-index: 5;
+        display: block;
+        border: 0;
+        background: var(--color-background-sidebar);
+        border-bottom: 1px solid var(--color-border);;
+}
+@media (min-width: 761px) {
+    .sidebar {
+        width: 210px;
+    }
+}
