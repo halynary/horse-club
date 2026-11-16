@@ -1,7 +1,9 @@
 .main {
-  flex: 1;
-  padding: 20px;
-  background: #fbf5ed;
+    flex: 1;
+    padding: 20px;
+    background: #fbf5ed;
+    display: flex;
+    flex-direction: column;
 }
 
 

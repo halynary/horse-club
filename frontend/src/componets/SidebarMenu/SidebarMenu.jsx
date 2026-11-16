@@ -1,7 +1,7 @@
 
 
 import { NavLink } from "react-router-dom";
-import horseIcon from "@/assets/images/horse.svg";
+import horseIcon from "@/assets/images/horse-icon.svg";
 import {
     LayoutDashboard,
     CalendarDays,
@@ -28,7 +28,7 @@ const navigationItems = [
     {
         path: "/horses",
         title: "Коні",
-        icon: <img src={horseIcon} alt="" width={24} height={24} />,
+        icon: <img src={horseIcon} alt="" width={30} height={30} strokeWidth={5} className="horse-icon" />,
     },
     {
         path: "/trainers",
