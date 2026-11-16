@@ -17,10 +17,9 @@ html {
 
 body {
   margin: 0;
-
-  font-family: var(--font-main);
+font-family: var(--font-main);
   font-size: var(--font-size-base);
-  line-height: 1.5;
+
 
   color: var(--color-text);
   background-color: var(--color-background);
@@ -78,7 +77,12 @@ h6 {
 }
 
 p {
-  margin: 0 0 var(--space-4);
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 small {
@@ -97,8 +101,8 @@ b {
 a {
   color: var(--color-primary);
 
-  text-decoration: underline;
-  text-underline-offset: 3px;
+  text-decoration: none;
+
 
   transition: color var(--transition-fast);
 
@@ -432,7 +436,9 @@ textarea::placeholder {
 .text-center {
   text-align: center;
 }
-
+div {
+  gap: 0px;
+}
 // Приховує візуально, але залишає доступним
 // для програм читання з екрана
 .visually-hidden {
